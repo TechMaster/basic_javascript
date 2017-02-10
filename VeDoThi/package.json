@@ -1,0 +1,17 @@
+{
+  "name": "vedothi",
+  "version": "1.0.0",
+  "description": "Ve Do thi phuong trinh bac 2",
+  "main": "demo.js",
+  "dependencies": {
+    "plotly": "^1.0.6",
+    "plotly.js": "^1.23.0",
+    "readline-sync": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tungpt",
+  "license": "ISC"
+}

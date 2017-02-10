@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draw quadratic by Plotly</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="demo.js"></script>
+</head>
+<body>
+    <p>Quadratic chart</p>
+    <div id="tester" style="width:400px;height:400px;"></div>
+    <script type="javascript">
+        TESTER = document.getElementById('tester');
+        Plotly.plot( TESTER, [{
+            x: x_series,
+            y: y_series }], {
+            margin: { t: 0 } } );
+    </script>
+</body>
+</html>
